@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	  xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+	<id>expenses</id>
+	<name>Expenses</name>
+	<summary>No More Unpaid Invoices! Track Invoices and Personal Expenses.</summary>
+	<description>No More Unpaid Invoices! Track Invoices and Personal Expenses.
+
+Watch a folder for new invoices, create payments and budget overviews.</description>
+	<version>1.0.0</version>
+	<licence>agpl</licence>
+	<author mail="git.architect@proton.me" homepage="https://github.com/git.architect/expenses">The Architect</author>
+	<namespace>Expenses</namespace>
+	<category>tools</category>
+	<bugs>https://github.com/git-architect/nextcloud-expenses/issues</bugs>
+	<dependencies>
+		<nextcloud min-version="29" max-version="32"/>
+	</dependencies>
+	<navigations>
+		<navigation>
+			<id>expenses</id>
+			<name>Expenses</name>
+			<route>expenses.page.index</route>
+			<icon>app.svg</icon>
+			<type>link</type>
+		</navigation>
+	</navigations>
+</info>
